@@ -1,6 +1,7 @@
 Walk into coffee shop simulator
 
 
-if you don have python installed use this link
+if you dont have python installed use this link
 
-https://replit.com/@ASTRALProductio/Coffee-Simulator
+
+https://replit.com/@ASTRALProductio/Coffee-Simulator#main.py
