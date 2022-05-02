@@ -1,0 +1,98 @@
+import time
+import random
+import os
+
+def clearConsole():
+    command = 'clear'
+    if os.name in ('nt', 'dos'):  # If Machine is running on Windows, use cls
+        command = 'cls'
+    os.system(command)
+
+
+
+price = random.randint(20, 50)
+int(price)
+
+# variables
+menu = "\nBlack Coffee, Espresso, Latte, Cappucino,  Black coffee w/ cream and sugar, Caramel coffee, Cold brew coffee, Frozen coffee, Pumpkin spice latte"
+
+# dialog
+print("Coffee Simulator v1.3 Update")
+print("Made by Syncere\n\n")
+print("| New Coffees")
+print("| New price system")
+print("| Ability to order multiple quanitys of coffee")
+print("| New update log")
+time.sleep(6)
+clearConsole()
+time.sleep(3)
+print("Welcome to Snootz Robot Coffee Shop")
+time.sleep(3)
+print("We have the best coffee in town")
+time.sleep(3)
+print("Do you walk in the Coffee Shop?")
+time.sleep(2)
+answer = input("Please enter 'yes' or 'no'\n\n")
+
+
+#dialog and input
+print("\nOkay.")
+
+name = input("What is your name?\n\n")
+
+print("\n\nNice to meet you " + name)
+
+print("Here is the menu:\n")
+
+time.sleep(3)
+
+print(menu)
+
+coffee = input("\nWhat would you like to order.\n\n")
+quanity = input("\nHow many?\n\n")
+
+print("\n Downloading...")
+
+time.sleep(2)
+
+
+print("1%")
+time.sleep(2)
+print("7%")
+      
+time.sleep(3)
+print("28%")
+time.sleep(2)
+print("47%")
+time.sleep(1)
+print("55%")
+time.sleep(2)
+print("64%")
+time.sleep(1)
+print("87%")
+time.sleep(0.7)
+print("96%")
+time.sleep(0.5)
+print("100%")
+time.sleep(0.7)
+print(".")
+time.sleep(0.7)
+print(".")
+time.sleep(0.7)
+print(".")
+clearConsole()
+time.sleep(1)
+print(f"Your total: ${price}")
+print(coffee)
+print(f"Amount: {quanity}")
+print("\nType 'pay' into the console to pay your total\n\n")
+pay = input()
+
+clearConsole()
+
+
+print("\nHeres your " + coffee + "(s)\n\n")
+print("type 'sip' into the console to drink your coffee\n\n")
+sip = input()
+print("\n\n (You sipped your coffee)")
+
